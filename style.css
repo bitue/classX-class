@@ -1,0 +1,15 @@
+.headings{   
+    
+    position: relative;
+    animation: mymove 30s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 100%;}
+  }
+.row{
+    margin: 5px;
+}
+
